@@ -47,6 +47,62 @@ CREATE TABLE PROFESSOR(
 	CONSTRAINT UQ_EMAIL_PROFESSOR UNIQUE (EMAIL),
 	CONSTRAINT UQ_CELULAR_PROFESSOR UNIQUE (CELULAR)
 );
+	create table Disciplina (
+	ID int Primary Key Identity not null,
+	Nome varchar(100) not null,
+	Data date not null DEFAULT (GETDATE()) ,
+	Status varchar(10) not null default ('Aberta') ,
+	PlanoDeEnsino varchar(1500) not null,
+	CargaHoraria tinyint not null,
+	Competencias varchar(500) not null,
+	Habilidades varchar(200) not null,
+	Ementa varchar(500) not null,
+	ConteudoProgramatico varchar(1000) not null,
+	BibliografiaBasica varchar(500) not null,
+	BibliografiaComplementar varchar(500) not null,
+	PercentualTeorico tinyint not null,
+	PercentualPratico tinyint not null,
+	IdCoordenador int not null,
+
+	constraint UQ_Nome unique (nome),
+	--CONSTRAINT DF_Data 
+	--constraint DF_status ,
+	Constraint CK_status check (status in ('Aberta', 'Fechada')),
+	Constraint CK_CargaHoraria check (CargaHoraria in (40,80)),
+	constraint CK_PercentualTeorico check (PercentualTeorico between 0 and 100),
+	constraint CK_PercentualPratico check (PercentualPratico between 0 and 100),
+	CONSTRAINT FK_IdCoordenador FOREIGN KEY (IdCoordendador) REFERENCES Coordenador (ID),
+
+			
+);
+
+create table DisciplinaOfertada (
+	ID int Primary Key identity not null,
+	IdCoordendador int not null,
+	DtInicioMatricula date,
+	DtFimMatricula date,
+	IdDisiciplina int not null,
+	IdCurso int not null,
+	Ano int not null,
+	Semestre tinyint,
+	Turma varchar(10) not null,
+	IdProfessor int not null,
+	Metodologia varchar(200),
+	Recursos varchar(200),
+	CriterioAvaliacao varchar(100),
+	PlanoDeAulas varchar (1000),
+
+	CONSTRAINT FK_IdCoordenador FOREIGN KEY (IdCoordendador) REFERENCES Coordenador (ID),
+	CONSTRAINT FK_IdDisciplina FOREIGN KEY (IdDisiciplina) REFERENCES Disicplina (ID),
+	CONSTRAINT FK_IdCurso FOREIGN KEY (IdCurso) REFERENCES Curso (ID),
+	CONSTRAINT FK_IdProfessor FOREIGN KEY (IdProfessor) REFERENCES Professor (ID),
+
+	Constraint CK_Ano check (Ano between 1900 and 2100),
+	Constraint CK_Semestre check (Semestre in(1,2)),
+	Constraint CK_Turma check (Turma between 'A' and 'Z'),
+
+
+
 
 
 CREATE TABLE CURSO(
