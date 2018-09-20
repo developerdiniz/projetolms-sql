@@ -201,7 +201,129 @@ INSERT INTO PROFESSOR (IDUSUARIO, NOME, EMAIL, CELULAR, APELIDO)VALUES
 (86, 'VANDERSON GOMES BOSSI', 'vg_bossi@impacta.com.br', 963524178, 'VANDERSON'),
 (87, 'VICTOR INÁCIO DE OLIVEIRA', 'vi_oliveira@impacta.com.br', 988787842, 'VICTOR'),
 (88, 'VLADIMIR CHAGAS', 'v_chagas@impacta.com.br', 978787082, 'VLADIMIR')
+
 --PARTE SHIPS
+
+INSERT INTO DISCIPLINAOFERTADA(IDCOORDENADOR,DTINICIOMATRICULA,DTFIMMATRICULA,IDDISCIPLINA,IDCURSO,ANO,SEMESTRE,TURMA,IDPROFESSOR,METODOLOGIA,RECURSOS,CRITERIOAVALIACAO,PLANODEAULAS)
+VALUES																	
+(1,'2018-01-01','2018-05-01',1,1,'2018',2,'A',1,'avaliar capacidades','em sala de aula','provas e acs de 0 a 10','começa no ano letivo e acaba no final . . .' ),
+(1,'2018-01-01','2018-05-01',2,1,'2018',2,'A',2,'avaliar capacidades','em sala de aula','provas e acs de 0 a 10','começa no ano letivo e acaba no final . . .' ),
+(1,'2018-01-01','2018-05-01',3,1,'2018',2,'A',3,'avaliar capacidades','em sala de aula','provas e acs de 0 a 10','começa no ano letivo e acaba no final . . .' ),
+(1,'2018-01-01','2018-05-01',4,1,'2018',2,'A',4,'avaliar capacidades','em sala de aula','provas e acs de 0 a 10','começa no ano letivo e acaba no final . . .' ),
+(1,'2018-01-01','2018-05-01',5,1,'2018',2,'A',5,'avaliar capacidades','em sala de aula','provas e acs de 0 a 10','começa no ano letivo e acaba no final . . .' ),
+(1,'2018-01-01','2018-05-01',6,1,'2018',2,'A',6,'avaliar capacidades','em sala de aula','provas e acs de 0 a 10','começa no ano letivo e acaba no final . . .' ),
+(1,'2018-01-01','2018-05-01',7,1,'2018',2,'A',7,'avaliar capacidades','em sala de aula','provas e acs de 0 a 10','começa no ano letivo e acaba no final . . .' ),
+(1,'2018-01-01','2018-05-01',8,1,'2018',2,'A',8,'avaliar capacidades','em sala de aula','provas e acs de 0 a 10','começa no ano letivo e acaba no final . . .' ),
+
+(1,'2018-01-01','2018-05-01',1,1,'2018',2,'B',1,'avaliar capacidades','em sala de aula','provas e acs de 0 a 10','começa no ano letivo e acaba no final . . .' ),
+(1,'2018-01-01','2018-05-01',2,1,'2018',2,'B',2,'avaliar capacidades','em sala de aula','provas e acs de 0 a 10','começa no ano letivo e acaba no final . . .' ),
+(1,'2018-01-01','2018-05-01',3,1,'2018',2,'B',3,'avaliar capacidades','em sala de aula','provas e acs de 0 a 10','começa no ano letivo e acaba no final . . .' ),
+(1,'2018-01-01','2018-05-01',4,1,'2018',2,'B',4,'avaliar capacidades','em sala de aula','provas e acs de 0 a 10','começa no ano letivo e acaba no final . . .' ),
+(1,'2018-01-01','2018-05-01',5,1,'2018',2,'B',5,'avaliar capacidades','em sala de aula','provas e acs de 0 a 10','começa no ano letivo e acaba no final . . .' ),
+(1,'2018-01-01','2018-05-01',6,1,'2018',2,'B',6,'avaliar capacidades','em sala de aula','provas e acs de 0 a 10','começa no ano letivo e acaba no final . . .' ),
+(1,'2018-01-01','2018-05-01',7,1,'2018',2,'B',7,'avaliar capacidades','em sala de aula','provas e acs de 0 a 10','começa no ano letivo e acaba no final . . .' ),
+(1,'2018-01-01','2018-05-01',8,1,'2018',2,'B',8,'avaliar capacidades','em sala de aula','provas e acs de 0 a 10','começa no ano letivo e acaba no final . . .' ),
+
+
+
+(2,'2018-01-01','2018-05-01',1,2,'2018',2,'A',1,'avaliar capacidades','em sala de aula','provas e acs de 0 a 10','começa no ano letivo e acaba no final . . .' ),
+(2,'2018-01-01','2018-05-01',2,2,'2018',2,'A',2,'avaliar capacidades','em sala de aula','provas e acs de 0 a 10','começa no ano letivo e acaba no final . . .' ),
+(2,'2018-01-01','2018-05-01',3,2,'2018',2,'A',3,'avaliar capacidades','em sala de aula','provas e acs de 0 a 10','começa no ano letivo e acaba no final . . .' ),
+(2,'2018-01-01','2018-05-01',4,2,'2018',2,'A',4,'avaliar capacidades','em sala de aula','provas e acs de 0 a 10','começa no ano letivo e acaba no final . . .' ),
+(2,'2018-01-01','2018-05-01',5,2,'2018',2,'A',5,'avaliar capacidades','em sala de aula','provas e acs de 0 a 10','começa no ano letivo e acaba no final . . .' ),
+(2,'2018-01-01','2018-05-01',6,2,'2018',2,'A',6,'avaliar capacidades','em sala de aula','provas e acs de 0 a 10','começa no ano letivo e acaba no final . . .' ),
+(2,'2018-01-01','2018-05-01',7,2,'2018',2,'A',7,'avaliar capacidades','em sala de aula','provas e acs de 0 a 10','começa no ano letivo e acaba no final . . .' ),
+(2,'2018-01-01','2018-05-01',8,2,'2018',2,'A',8,'avaliar capacidades','em sala de aula','provas e acs de 0 a 10','começa no ano letivo e acaba no final . . .' ),
+
+(2,'2018-01-01','2018-05-01',1,2,'2018',2,'B',1,'avaliar capacidades','em sala de aula','provas e acs de 0 a 10','começa no ano letivo e acaba no final . . .' ),
+(2,'2018-01-01','2018-05-01',2,2,'2018',2,'B',2,'avaliar capacidades','em sala de aula','provas e acs de 0 a 10','começa no ano letivo e acaba no final . . .' ),
+(2,'2018-01-01','2018-05-01',3,2,'2018',2,'B',3,'avaliar capacidades','em sala de aula','provas e acs de 0 a 10','começa no ano letivo e acaba no final . . .' ),
+(2,'2018-01-01','2018-05-01',4,2,'2018',2,'B',4,'avaliar capacidades','em sala de aula','provas e acs de 0 a 10','começa no ano letivo e acaba no final . . .' ),
+(2,'2018-01-01','2018-05-01',5,2,'2018',2,'B',5,'avaliar capacidades','em sala de aula','provas e acs de 0 a 10','começa no ano letivo e acaba no final . . .' ),
+(2,'2018-01-01','2018-05-01',6,2,'2018',2,'B',6,'avaliar capacidades','em sala de aula','provas e acs de 0 a 10','começa no ano letivo e acaba no final . . .' ),
+(2,'2018-01-01','2018-05-01',7,2,'2018',2,'B',7,'avaliar capacidades','em sala de aula','provas e acs de 0 a 10','começa no ano letivo e acaba no final . . .' ),
+(2,'2018-01-01','2018-05-01',8,2,'2018',2,'B',8,'avaliar capacidades','em sala de aula','provas e acs de 0 a 10','começa no ano letivo e acaba no final . . .' ),
+
+(2,'2018-01-01','2018-05-01',1,2,'2018',2,'C',1,'avaliar capacidades','em sala de aula','provas e acs de 0 a 10','começa no ano letivo e acaba no final . . .' ),
+(2,'2018-01-01','2018-05-01',2,2,'2018',2,'C',2,'avaliar capacidades','em sala de aula','provas e acs de 0 a 10','começa no ano letivo e acaba no final . . .' ),
+(2,'2018-01-01','2018-05-01',3,2,'2018',2,'C',3,'avaliar capacidades','em sala de aula','provas e acs de 0 a 10','começa no ano letivo e acaba no final . . .' ),
+(2,'2018-01-01','2018-05-01',4,2,'2018',2,'C',4,'avaliar capacidades','em sala de aula','provas e acs de 0 a 10','começa no ano letivo e acaba no final . . .' ),
+(2,'2018-01-01','2018-05-01',5,2,'2018',2,'C',5,'avaliar capacidades','em sala de aula','provas e acs de 0 a 10','começa no ano letivo e acaba no final . . .' ),
+(2,'2018-01-01','2018-05-01',6,2,'2018',2,'C',6,'avaliar capacidades','em sala de aula','provas e acs de 0 a 10','começa no ano letivo e acaba no final . . .' ),
+(2,'2018-01-01','2018-05-01',7,2,'2018',2,'C',7,'avaliar capacidades','em sala de aula','provas e acs de 0 a 10','começa no ano letivo e acaba no final . . .' ),
+(2,'2018-01-01','2018-05-01',8,2,'2018',2,'C',8,'avaliar capacidades','em sala de aula','provas e acs de 0 a 10','começa no ano letivo e acaba no final . . .' ),
+
+(2,'2018-01-01','2018-05-01',1,2,'2018',2,'C',1,'avaliar capacidades','em sala de aula','provas e acs de 0 a 10','começa no ano letivo e acaba no final . . .' ),
+(2,'2018-01-01','2018-05-01',2,2,'2018',2,'C',2,'avaliar capacidades','em sala de aula','provas e acs de 0 a 10','começa no ano letivo e acaba no final . . .' ),
+(2,'2018-01-01','2018-05-01',3,2,'2018',2,'C',3,'avaliar capacidades','em sala de aula','provas e acs de 0 a 10','começa no ano letivo e acaba no final . . .' ),
+(2,'2018-01-01','2018-05-01',4,2,'2018',2,'C',4,'avaliar capacidades','em sala de aula','provas e acs de 0 a 10','começa no ano letivo e acaba no final . . .' ),
+(2,'2018-01-01','2018-05-01',5,2,'2018',2,'C',5,'avaliar capacidades','em sala de aula','provas e acs de 0 a 10','começa no ano letivo e acaba no final . . .' ),
+(2,'2018-01-01','2018-05-01',6,2,'2018',2,'C',6,'avaliar capacidades','em sala de aula','provas e acs de 0 a 10','começa no ano letivo e acaba no final . . .' ),
+(2,'2018-01-01','2018-05-01',7,2,'2018',2,'C',7,'avaliar capacidades','em sala de aula','provas e acs de 0 a 10','começa no ano letivo e acaba no final . . .' ),
+(2,'2018-01-01','2018-05-01',8,2,'2018',2,'C',8,'avaliar capacidades','em sala de aula','provas e acs de 0 a 10','começa no ano letivo e acaba no final . . .' );
+
+
+
+INSERT INTO SOLICITACAOMATRICULA(IDALUNO,IDDOFERTADA,DTSOLICITACAO,IDCOORDENADOR,STATUS)
+VALUES
+(1,1,1,'SOLICITADA'),
+(2,1,1,'SOLICITADA'),
+(3,1,1,'SOLICITADA'),
+(4,1,1,'SOLICITADA'),
+(5,1,1,'SOLICITADA'),
+(6,1,1,'SOLICITADA'),
+(7,1,1,'SOLICITADA'),
+(8,1,1,'SOLICITADA'),
+(9,1,1,'SOLICITADA'),
+(10,1,1,'SOLICITADA'),
+
+(1,1,1,'APROVADA'),
+(2,1,1,'APROVADA'),
+(3,1,1,'APROVADA'),
+(4,1,1,'APROVADA'),
+(5,1,1,'APROVADA'),
+(6,1,1,'APROVADA'),
+(7,1,1,'APROVADA'),
+(8,1,1,'APROVADA'),
+(9,1,1,'APROVADA'),
+(10,1,1,'APROVADA'),
+
+(1,1,1,'REJEITADA'),
+(2,1,1,'REJEITADA'),
+(3,1,1,'REJEITADA'),
+(4,1,1,'REJEITADA'),
+(5,1,1,'REJEITADA'),
+(6,1,1,'REJEITADA'),
+(7,1,1,'REJEITADA'),
+(8,1,1,'REJEITADA'),
+(9,1,1,'REJEITADA'),
+(10,1,1,'REJEITADA'),
+
+(1,1,1,'CANCELADA'),
+(2,1,1,'CANCELADA'),
+(3,1,1,'CANCELADA'),
+(4,1,1,'CANCELADA'),
+(5,1,1,'CANCELADA'),
+(6,1,1,'CANCELADA'),
+(7,1,1,'CANCELADA'),
+(8,1,1,'CANCELADA'),
+(9,1,1,'CANCELADA'),
+(10,1,1,'CANCELADA');
+
+
+INSERT INTO ATIVIDADE(TITULO,DESCRICAO,CONTEUDO,TIPO,EXTRAS,IDPROFESSOR)
+VALUES
+('ac1','atividades da ac1','bla bla bla','RESPOSTA ABERTA','',1),
+('ac2','atividades da ac2','bla bla bla','RESPOSTA ABERTA','',1),
+('ac3','atividades da ac3','bla bla bla','RESPOSTA ABERTA','',1),
+('ac4','atividades da ac4','bla bla bla','RESPOSTA ABERTA','',1),
+('ac5','atividades da ac5','bla bla bla','RESPOSTA ABERTA','',1),
+('ac6','atividades da ac6','bla bla bla','RESPOSTA ABERTA','',1),
+('ac7','atividades da ac7','bla bla bla','RESPOSTA ABERTA','',1),
+('ac8','atividades da ac8','bla bla bla','RESPOSTA ABERTA','',1),
+('ac9','atividades da ac9','bla bla bla','RESPOSTA ABERTA','',1),
+('ac10','atividades da ac1','bla bla bla','RESPOSTA ABERTA','',1);
+
 
 
 
