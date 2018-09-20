@@ -161,9 +161,45 @@ INSERT INTO ALUNO (IDUSUARIO, NOME, EMAIL, CELULAR, RA) VALUES
 
 --PARTE SAMUEL
 
-
-
-
+INSERT INTO PROFESSOR (IDUSUARIO, NOME, EMAIL, CELULAR, APELIDO)VALUES
+(51, 'ALAN ALVES DE OLIVEIRA', 'aa_oliveira@impacta.com.br', 966543217, 'ALAN'),
+(52, 'ALBERTO DE MEDEIROS JUNIOR', 'am_junior@impacta.com.br', 988080842, 'ALBERTO'),
+(53, 'ALEXANDRE LEITE RANGEL', 'al_rangel@impacta.com.br', 936351478, 'RANGEL'),
+(54, 'ALEXANDRE LOCCI MARTINS', 'al_martins@impacta.com.br', 965012556, 'MARTINS'),
+(55, 'ALVARO TOSHIO TAKEI', 'at_takei@impacta.com.br', 970550542, 'ALVARO'),
+(56, 'ANA CRISTINA DOS SANTOS', 'ac_santos@impacta.com.br', 970585032, 'ANA'),
+(57, 'BRUNO ROBERTO KALKEVICIUS', 'br_kalkevicius@impacta.com.br', 950554978, 'BRUNO'),
+(58, 'CEZAR BELLINI', 'c_bellini@impacta.com.br', 956857548, 'CEZAR'),
+(59, 'EDSON BENITES SILVA', 'eb_silva@impacta.com.br', 12967845, 'EDSON'),
+(60, 'EDSON TIHARU TSUKIMOTO', 'et_tsukimoto@impacta.com.br', 963251578, 'TSUKIMOTO'),
+(61, 'EDUARDO LUIS DE QUEIROZ', 'el_queiroz@impacta.com.br', 987756412, 'EDU'),
+(62, 'EMILIO MURTA RESENDE', 'em_resende@impacta.com.br', 963524178, 'EMILIO'),
+(63, 'FELIPE AUGUSTO ROCHA DIAS', 'fa_dias@impacta.com.br', 963529846, 'FELIPE'),
+(64, 'FERNANDO ZUHER', 'f_zuher@impacta.com.br', 963547814, 'FERNANDO'),
+(65, 'FRANCESCA ROMANELLI', 'f_romanelli@impacta.com.br', 20114498, 'FRANCESCA'),
+(66, 'GISELDA FERNANDA PEREIRA', 'gf_pereira@impacta.com.br', 36359874, 'GISELDA'),
+(67, 'GUILHERME GARCEZ LOHMANN', 'gg_lohmann@impacta.com.br', 965874112, 'GUILHERME'),
+(68, 'GUSTAVO MENDES FERREIRA', 'gm_ferreira@impacta.com.br', 963524178, 'FERREIRA'),
+(69, 'ILANA DE ALMEIDA SOUZA CONCILIO', 'ias_concilio@impacta.com.br', 965847319, 'ILANA'),
+(70, 'IZA MELÃO', 'i_melão@impacta.com.br', 978754936, 'IZA'),
+(71, 'JOÃO PAULO VENÂNCIO COUTINHO', 'jp_coutinho@impacta.com.br', 987461293, 'JP'),
+(72, 'JOSÉ PACHECO DE ALMEIDA PRADO', 'jp_prado@impacta.com.br', 979763454, 'PACHECO'),
+(73, 'LEONARDO MASSAYUKI TAKUNO', 'lm_takuno@impacta.com.br', 988659412, 'TAKUNO'),
+(74, 'LUCAS MENDES MARQUES GONÇALVES', 'lm_gonçalves@impacta.com.br', 978731246, 'LUCAS'),
+(75, 'LUCIANO CROCCO', 'l_crocco@impacta.com.br', 963852744, 'LUCIANO'),
+(76, 'MARCEL GINOTTI PIRES', 'mg_pires@impacta.com.br', 944548798, 'MARCEL'),
+(77, 'MARCELO CORREIA DA SILVA', 'mc_silva@impacta.com.br', 988080842, 'MARCELO'),
+(78, 'MARCELO SANSINI TERRA', 'ms_terra@impacta.com.br', 962518479, 'SANSINI'),
+(79, 'MARCO TÚLIO JEUNON', 'mt_jeunon@impacta.com.br', 987785896, 'MARCO'),
+(80, 'OSVALDO KOTARO TAKAI', 'ok_takai@impacta.com.br', 947596872, 'TAKAI'),
+(81, 'PEDRO FELIPE DO PRADO', 'pf_prado@impacta.com.br', 956847515, 'PEDRO'),
+(82, 'PLÍNIO BARBIERI FILHO', 'pb_filho@impacta.com.br', 985861427, 'PLINIO'),
+(83, 'RENATO DE SOUZA SANTOS', 'rs_santos@impacta.com.br', 963567841, 'RENATO'),
+(84, 'RODRIGO PIASSI', 'r_piassi@impacta.com.br', 963524187, 'RODRIGO'),
+(85, 'SÉRGIO EDUARDO DI SANTORO BRUZETTI', 'se_bruzetti@impacta.com.br', 968745212, 'SERGIO'),
+(86, 'VANDERSON GOMES BOSSI', 'vg_bossi@impacta.com.br', 963524178, 'VANDERSON'),
+(87, 'VICTOR INÁCIO DE OLIVEIRA', 'vi_oliveira@impacta.com.br', 988787842, 'VICTOR'),
+(88, 'VLADIMIR CHAGAS', 'v_chagas@impacta.com.br', 978787082, 'VLADIMIR')
 --PARTE SHIPS
 
 
